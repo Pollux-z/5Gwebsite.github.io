@@ -111,8 +111,8 @@ main h1 {
 
 /* Footer  */
 footer {
-    color: white;
-    background-color: #985fd8;
+    color: #37345F;
+    background-color: #DCCAEF;
 }
 
 .footer-under {
@@ -134,7 +134,7 @@ footer ul {
 
 footer a {
     text-decoration: none;
-    color: #ffffff;
+    color: #37345F;
     font-size: 0.8rem;
 }
 
