@@ -141,7 +141,7 @@ $(function(){
         paginate.createPage(items, 1, perPage);
 
         // handle click events on the buttons
-        $(document).on('click', '.pagination-button', function(e) {
+        $(Document).on('click', '.pagination-button', function(e) {
             // get current page from active button
             var currentPage = parseInt($('.pagination-button.active').text(), 10),
                 newPage = currentPage,
