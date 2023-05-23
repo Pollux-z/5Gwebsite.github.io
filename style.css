@@ -1,3 +1,9 @@
+:root {
+    --purple-defualt: rgb(112, 48, 160);
+    --purple-third: #37345F;
+    --purple-second: #DCCAEF;
+}
+
 body {
     font-family: 'IBM Plex Sans Thai', sans-serif;
     font-size: 16px;
@@ -30,6 +36,27 @@ main h1 {
     font-size: 3rem;
     font-weight: 700;
 }
+
+#collapse-map button {
+    background-color: var(--purple-second);
+    border-color: white;
+    color: #37345F;
+}
+
+#collapse-map button:hover {
+    background-color: var(--purple-defualt);
+    color: #ffffff;
+}
+
+#collapse-map ul, #collapse-map ul li a {
+    color: var(--purple-third);
+    font-size: 1.1rem;
+}
+
+#collapse-map hr {
+    border-color: var(--purple-defualt);
+}
+
 
 
 
@@ -111,8 +138,8 @@ main h1 {
 
 /* Footer  */
 footer {
-    color: #37345F;
-    background-color: #DCCAEF;
+    color: var(--purple-third);
+    background-color: var(--purple-second);
 }
 
 .footer-under {
