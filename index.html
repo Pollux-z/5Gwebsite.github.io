@@ -23,6 +23,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
     rel="stylesheet">
+
 </head>
 
 <body>
@@ -242,10 +243,12 @@
 
   </section>
 
+
+  <!-- Website mapping -->
   <div id="collapse-map" class="container-fluid">
     <div class="row d-flex flex-row-reverse">
-      <button class="btn btn-primary col-6 col-md-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
-        aria-expanded="false" aria-controls="collapseExample" >
+      <button class="btn btn-primary col-6 col-md-4 fw-bold" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
         แผนผังเว็บไซต์
       </button>
       <div class="collapse" id="collapseExample">
@@ -255,37 +258,48 @@
             <div class="col col-lg-4">
               <h4>5G ในประเทศไทย</h4>
               <ul class="">
-                <li><a class="text-decoration-none" href="#">การครอบคลุมสัญญา 5G ในประเทศไทย</a></li>
-                <li><a class="text-decoration-none" href="#">การประยุกต์ใช้ 5G ในภาคอุสาหกรรม</a></li>
-                <li><a class="text-decoration-none" href="#">ระบบนิเวศ 5G</a></li>
-                <li><a class="text-decoration-none" href="#">โครงการนำร่อง 5G ประเทศไทย</a></li>
+                <li><a class="text-decoration-none" href="signal5g.html">การครอบคลุมสัญญา 5G ในประเทศไทย</a></li>
+                <li><a class="text-decoration-none" href="Industrail5G.html">การประยุกต์ใช้ 5G ในภาคอุสาหกรรม</a></li>
+                <li><a class="text-decoration-none" href="ecosystem.html">ระบบนิเวศ 5G</a></li>
+                <li><a class="text-decoration-none" href="b_โครงการนำร่อง5G.html">โครงการนำร่อง 5G ประเทศไทย</a></li>
               </ul>
             </div>
             <div class="col-lg-4">
               <h4>แผนปฏิบัติการ 5G</h4>
               <ul class="">
-                <li><a class="text-decoration-none" href="#">แผนปฏิบัติการระยะที่ 1</a></li>
-                <li><a class="text-decoration-none" href="#">แผนปฏิบัติการระยะที่ 2</a></li>
+                <li><a class="text-decoration-none" href="p_plan1.html">แผนปฏิบัติการระยะที่ 1</a></li>
+                <li><a class="text-decoration-none" href="p_plan2.html">แผนปฏิบัติการระยะที่ 2</a></li>
               </ul>
               <h5>มูลค่าทางเศรษฐกิจและสังคมจากโครงการ 5G</h5>
             </div>
             <div class="col-lg-4">
               <h4>สื่อประชาสัมพันธ์</h4>
               <ul class="">
-                <li><a class="text-decoration-none" href="#">Facebook</a></li>
-                <li><a class="text-decoration-none" href="#">Youtube</a></li>
+                <li><a class="text-decoration-none" href="a_facebook.html">Facebook</a></li>
+                <li><a class="text-decoration-none" href="a_youtube.html">Youtube</a></li>
                 <li><a class="text-decoration-none" href="#">Television</a></li>
-                <li><a class="text-decoration-none" href="#">วีทีทัศ</a></li>
-                <li><a class="text-decoration-none" href="#">infographic</a></li>
+                <li><a class="text-decoration-none" href="a_TV.html">วีดีทัศน์</a></li>
+                <li><a class="text-decoration-none" href="a_infographic.html">infographic</a></li>
               </ul>
-              <h4>รายงานเผยแพร่</h4>
+              <h4><a class="text-decoration-none text-black" href="report.html">รายงานเผยแพร่</a></h4>
             </div>
           </div>
-          
         </div>
       </div>
     </div>
   </div>
+
+  
+  <!-- Cookie Banner -->
+  <div id="cb-cookie-banner" class="bg-primary-subtle text-center  w-100 position-fixed fixed-bottom p-3" role="alert">
+    <p>เว็บไซต์นี้มีการใช้งานคุกกี้เพื่อให้สามารถใช้งานเว็บไซต์ได้อย่างต่อเนื่องและมีประสิทธิภาพ จึงขอให้ท่านรับรองว่าท่านได้อ่านและทำความเข้าใจนโยบายการใช้งานคุกกี้</p>
+    <a class="text-decoration-none" href="https://www.onde.go.th/view/1/นโยบายคุ้มครองข้อมูลส่วนบุคคล/TH-TH" target="blank">นโยบายคุ้มครองข้อมูลส่วนบุคคล</a>
+    <button type="button" class="btn btn-warning" onclick="window.cb_hideCookieBanner()">
+      ยอมรับ
+    </button>
+  </div>
+  <!-- End of Cookie Banner -->
+
 
   <!-- Footer Section -->
   <div id="footer-placeholder"></div>
