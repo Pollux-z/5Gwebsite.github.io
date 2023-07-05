@@ -1,6 +1,6 @@
 :root {
-    --purple-defualt: rgb(112, 48, 160);
-    --purple-third: #37345F;
+    --purple-defualt: #6527BE;
+    --purple-third: #9681EB;
     --purple-second: #DCCAEF;
 }
 
@@ -325,7 +325,6 @@ footer a {
     to {opacity:1 ;}
   }
 
-
   #cb-cookie-banner {
     z-index: 999;
     display: none;
@@ -334,3 +333,21 @@ footer a {
   #cb-cookie-banner p ,#cb-cookie-banner a, #cb-cookie-banner button{
     font-size: 0.8rem;
   }
+
+  .accordion-button {
+    background-color: var(--purple-defualt);
+    color: white;
+    box-shadow: none;
+  }
+
+
+  .accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgb(112, 48, 160, 0.3)
+  }
+
+  .accordion-button:not(.collapsed){
+    background-color: var(--purple-third);
+    color: white;
+    box-shadow: 0 0 0 0.25rem rgb(150, 129, 235, 0.3)
+  }
+
