@@ -1,7 +1,8 @@
 :root {
     --purple-defualt: #6527BE;
-    --purple-third: #9681EB;
-    --purple-second: #DCCAEF;
+    --purple-second: #9681EB;
+    --purple-third: #45CFDD;
+    --purple-four: #A7EDE7;
 }
 
 body {
@@ -53,7 +54,7 @@ main h1 {
 
 #collapse-map ul,
 #collapse-map ul li a {
-    color: var(--purple-third);
+    color: var(--purple-defualt);
     font-size: 1.1rem;
 }
 
@@ -64,8 +65,6 @@ main h1 {
 .contact-button button{
     font-size:  0.7rem;
 }
-
-
 
 
 /* Card section  */
@@ -146,7 +145,7 @@ main h1 {
 
 /* Footer  */
 footer {
-    color: var(--purple-third);
+    color: white;
     background-color: var(--purple-second);
 }
 
@@ -169,7 +168,7 @@ footer ul {
 
 footer a {
     text-decoration: none;
-    color: #37345F;
+    color: white;
     font-size: 0.8rem;
 }
 
