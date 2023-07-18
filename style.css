@@ -345,7 +345,7 @@ footer a {
   }
 
   .accordion-button:not(.collapsed){
-    background-color: var(--purple-third);
+    background-color: var(--purple-second);
     color: white;
     box-shadow: 0 0 0 0.25rem rgb(150, 129, 235, 0.3)
   }
