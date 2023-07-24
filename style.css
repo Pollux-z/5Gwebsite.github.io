@@ -1,8 +1,10 @@
 :root {
-    --purple-defualt: #6527BE;
-    --purple-second: #9681EB;
-    --purple-third: #45CFDD;
-    --purple-four: #A7EDE7;
+    --light-scheme-primary: #6750A4;
+    --light-scheme-OnPrimary: #FFFFFF;
+    --light-scheme-PrimaryContainer: #EADDFF;
+    --light-scheme-OnPrimaryContainer: #21005D;
+    --light-scheme-Outline: #79747E;
+
 }
 
 body {
@@ -39,32 +41,32 @@ main h1 {
     font-weight: 700;
 }
 
-#collapse-map button,
-.contact-button button {
-    background-color: var(--purple-second);
-    border-color: white;
-    color: #37345F;
+
+/* mapping */
+#collapse-map button{
+    background-color: var(--light-scheme-primary);
+    color: var(--light-scheme-OnPrimary);
+    border-color: var(--light-scheme-OnPrimary);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-#collapse-map button:hover,
-.contact-button button:hover {
-    background-color: var(--purple-defualt);
-    color: #ffffff;
+#collapse-map button:hover {
+    background-color: var(--light-scheme-OnPrimary);
+    color: var(--light-scheme-primary);
+    border-color: var(--light-scheme-Outline);
 }
 
 #collapse-map ul,
 #collapse-map ul li a {
-    color: var(--purple-defualt);
+    color: var(--light-scheme-primary);
     font-size: 1.1rem;
 }
 
 #collapse-map hr {
-    border-color: var(--purple-defualt);
+    border-color: var(--light-scheme-primary);
 }
 
-.contact-button button{
-    font-size:  0.7rem;
-}
+
 
 
 /* Card section  */
@@ -146,11 +148,11 @@ main h1 {
 /* Footer  */
 footer {
     color: white;
-    background-color: var(--purple-second);
+    background-color: var(--light-scheme-primary);
 }
 
 .footer-under {
-    background-color: #512161;
+    background-color: var(--light-scheme-OnPrimaryContainer);
 }
 
 footer i {
@@ -184,6 +186,15 @@ footer a {
     color: #512161;
 }
 
+.contact-button button{
+    color: var(--light-scheme-OnPrimaryContainer);
+    background-color: var(--light-scheme-PrimaryContainer);
+}
+
+.contact-button button:hover{
+    color: var(--light-scheme-PrimaryContainer);
+    background-color: var(--light-scheme-OnPrimaryContainer);
+}
 /* 5GPlan Page */
 
 
@@ -258,6 +269,11 @@ footer a {
 /* Sub menu dropdown  */
 .dropdown-menu li {
     position: relative;
+}
+
+.dropdown-menu a:hover {
+    background-color: var(--light-scheme-primary);
+    color: var(--light-scheme-OnPrimary);
 }
 
 .dropdown-menu .dropdown-submenu {
