@@ -218,10 +218,12 @@ footer a {
     color: #985fd8;
 }
 
+/* infographic page */
+#infographic img {
+    cursor: zoom-in;
+}
 
 /* Blog section  */
-
-
 
 .button {
     margin: 0 10px;
