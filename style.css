@@ -223,6 +223,11 @@ footer a {
     cursor: zoom-in;
 }
 
+#infographic h3{
+    background-color: var(--light-scheme-primary);
+    opacity: 0.7;
+}
+
 /* Blog section  */
 
 .button {
