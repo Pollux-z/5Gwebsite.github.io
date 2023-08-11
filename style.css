@@ -5,6 +5,11 @@
     --light-scheme-OnPrimaryContainer: #21005D;
     --light-scheme-Outline: #79747E;
 
+    --light-scheme-primary-bg: rgb(103, 80, 164,0.7);
+}
+
+.primary-bg {
+    background-color: var(--light-scheme-primary-bg);
 }
 
 body {
@@ -218,7 +223,7 @@ footer a {
     color: #985fd8;
 }
 
-/* infographic page */
+/* facebook infographic page */
 #infographic img {
     cursor: zoom-in;
 }
@@ -226,6 +231,11 @@ footer a {
 #infographic h3{
     background-color: var(--light-scheme-primary);
     opacity: 0.7;
+}
+
+/* facebook Cover Photo */
+#fb_coverphoto img{
+    cursor: zoom-in;
 }
 
 /* Blog section  */
