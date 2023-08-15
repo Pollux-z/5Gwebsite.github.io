@@ -6,6 +6,7 @@
     --light-scheme-Outline: #79747E;
 
     --light-scheme-primary-bg: rgb(103, 80, 164,0.7);
+    --light-scheme-footer-bg: #D1C0ED;
 }
 
 .primary-bg {
@@ -152,17 +153,17 @@ main h1 {
 
 /* Footer  */
 footer {
-    color: white;
-    background-color: var(--light-scheme-primary);
+    color: #573C81;
+    background-color: var(--light-scheme-footer-bg);
 }
 
 .footer-under {
-    background-color: var(--light-scheme-OnPrimaryContainer);
+    background-color: var(--light-scheme-primary);
 }
 
 footer i {
     font-size: 2rem;
-    color: #ffffff;
+    color: #573C81;
 }
 
 footer p {
@@ -175,7 +176,7 @@ footer ul {
 
 footer a {
     text-decoration: none;
-    color: white;
+    color: #573C81;
     font-size: 0.8rem;
 }
 
