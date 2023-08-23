@@ -37,12 +37,17 @@
           <div class="col text-end">
             <div class="col d-flex justify-content-end align-content-center">
               <span class="d-flex align-items-center gap-1">
-                <button class="border-0"><img src="source/icon/icons8-thailand-16.png" alt=""> ภาษาไทย</button>
-                <button class="border-0"><img src="source/icon/icons8-great-britain-16.png" alt=""> English</button>
+
+                <!-- Translate Engine -->
+                <div id="google_translate_element"></div>
+                <!-- <button class="border-0"><img src="source/icon/icons8-thailand-16.png" alt=""> ภาษาไทย</button>
+                <button class="border-0"><img src="source/icon/icons8-great-britain-16.png" alt=""> English</button> -->
               </span>
 
               <!-- Search Engine -->
               <div class="gcse-search"></div>
+
+
             </div>
             <div class="d-flex justify-content-end">
               <span class="d-flex align-items-center gap-1">
@@ -171,129 +176,10 @@
             </ul>
           </div>
         </div>
-
-        </li>
-        </ul>
       </div>
   </div>
   </nav>
   </div>
-
-
-
-  <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <div class="container w-75">
-        <div class="row">
-          <div class="col-2">
-            <a class="navbar-brand" href="#">
-              <img src="source/image/logo_11052023_1.png" alt="Bootstrap" width="100" height="100">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-          <div class="col-6"></div>
-          <div class="col text-end">
-            <div class="col">
-              <i class="bi bi-facebook me-3 fs-2 text-info"></i>
-              <i class="bi bi-youtube fs-2 text-danger"></i>
-            </div>
-            <div class="col">
-              <span class="">
-                ปรับขนาดตัวอักษร
-                <i id="downSize" class="bi bi-dash-circle fs-4 "></i>
-                <i id="upSize" class="bi bi-plus-circle fs-4"></i>
-                <i class="bi bi-c-circle-fill fs-4 text-warning"></i>
-                <i class="bi bi-c-circle fs-4"></i>
-                <i class="bi bi-c-circle-fill fs-4 "></i>
-              </span>
-              </div>
-            </div>
-          </div>
-          <div class="row bg-danger ">
-            <div class="">
-              <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li>
-                    <a class="nav-link active" href=""><i class="bi bi-house-fill"></i></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">หน้าหลัก</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                      aria-expanded="false">
-                      5G ในประเทศไทย
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a class="dropdown-item" href="signal5g.html">การครอบคลุมสัญญา 5G ในประเทศไทย</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="Industrail5G.html">การประยุกต์ใช้ 5G ในภาคอุสาหกรรม</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="ecosystem.html">ระบบนิเวศ 5G</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="b_โครงการนำร่อง5G.html">โครงการนำร่อง 5G ประเทศไทย</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                      aria-expanded="false">แผนปฏิบัติการ 5G</a>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a class="dropdown-item" href="p_plan1.html">แผนปฏิบัติการระยะ 1</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="p_plan2.html">แผนปฏิบัติการระยะ 2</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="economicValue.html">มูลค่าทางเศรษฐกิจและสังคมจากโครงการ 5G</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                      aria-expanded="false">สื่อประชาสัมพันธ์</a>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a href="a_facebook.html" class="dropdown-item">Facebook</a>
-                      </li>
-                      <li>
-                        <a href="a_youtube.html" class="dropdown-item">Youtube</a>
-                      </li>
-                      <li>
-                        <a href="#" class="dropdown-item ">Television</a>
-                        <ul class="dropdown-menu dropdown-submenu">
-                          <li><a class="dropdown-item" href="a_clip short.html">หนังสั้น</a></li>
-                          <li><a class="dropdown-item" href="a_special.html">รายการพิเศษ</a></li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="a_TV.html" class="dropdown-item">วีทีทัศ</a>
-                      </li>
-                      <li>
-                        <a href="a_infographic.html" class="dropdown-item">infographic</a>
-                      </li>
-
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="report.html">รายงานเผยแพร่</a>
-                  </li>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </nav> -->
 
 
   <!-- jquery  -->
@@ -313,6 +199,10 @@
     crossorigin="anonymous"></script>
 
   <script src="fnfont.js"></script>
+
+  <!-- Treanslate Engine JavaScript -->
+  <script src="./source/java/translate.js"></script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 
   <!-- Search Engine JavaScript -->
