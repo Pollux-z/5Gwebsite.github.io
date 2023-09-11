@@ -18,8 +18,10 @@ body {
     font-size: 16px;
 }
 
-.text-shadow {
-    text-shadow: 2px 2px #000000;
+.text-stroke {
+    color: black;
+    text-shadow: 2px 2px 4px #ffffff;
+    font-weight: bold;
 }
 
 /* Index page */
@@ -47,8 +49,7 @@ nav span {
 }
 
 main h1 {
-    font-size: 3rem;
-    font-weight: 700;
+
 }
 
 
