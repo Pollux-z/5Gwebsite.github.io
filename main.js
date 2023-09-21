@@ -206,3 +206,4 @@ function initializeCookieBanner(){
 // Assigning values to window object
 window.onload = initializeCookieBanner();
 window.cb_hideCookieBanner = hideCookieBanner;
+
