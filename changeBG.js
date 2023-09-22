@@ -21,10 +21,4 @@ function cgColors(fc, bg) {
         buttonHover[i].classList.add('buttonHover');
       }
       
-      
-    //   const buttonColor = document.querySelectorAll("button");
-    //   for (let i = 0; i < buttonColor.length; i++) {
-    //     buttonColor[i].style.backgroundColor = 'black';
-    //     buttonColor[i].style.color = "yellow";
-    //   }
 }
