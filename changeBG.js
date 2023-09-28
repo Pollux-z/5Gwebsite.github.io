@@ -15,10 +15,5 @@ function cgColors(fc, bg) {
       for (let i = 0; i < imgColor.length; i++) {
         imgColor[i].style.filter = 'grayscale(100%)';
       }
-      const buttonHover = document.querySelectorAll("button");
-      for (let i = 0; i < buttonHover.length; i++) {
-        buttonHover[i].classList.remove('button');
-        buttonHover[i].classList.add('buttonHover');
-      }
       
 }
