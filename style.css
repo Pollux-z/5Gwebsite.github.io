@@ -24,6 +24,11 @@ body {
     font-weight: bold;
 }
 
+.fs-custom{
+    font-size : clamp(16px, 1vw, 19px);
+    /* font-size : clamp(1.1rem, 0.8vw, 1.5rem); */
+}
+
 /* Index page */
 #section1 i {
     color: #512161;
@@ -46,10 +51,6 @@ nav span {
 
 .carousel-item img {
     height: 700px;
-}
-
-main h1 {
-
 }
 
 
